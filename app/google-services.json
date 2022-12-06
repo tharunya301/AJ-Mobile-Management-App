@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "739387585528",
+    "firebase_url": "https://aj-mobiles-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "aj-mobiles",
+    "storage_bucket": "aj-mobiles.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:739387585528:android:f7ca298ef363920e649c0d",
+        "android_client_info": {
+          "package_name": "com.example.aj_mobile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "739387585528-bhfjt04ulfv9gu487l2q0ecmvei9k1i5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRYih8IW-vC9DKWX04FJ9rr7-kKdu-f7w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "739387585528-bhfjt04ulfv9gu487l2q0ecmvei9k1i5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:739387585528:android:af95eed2232f2629649c0d",
+        "android_client_info": {
+          "package_name": "com.gs.ajmobileapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "739387585528-bhfjt04ulfv9gu487l2q0ecmvei9k1i5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRYih8IW-vC9DKWX04FJ9rr7-kKdu-f7w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "739387585528-bhfjt04ulfv9gu487l2q0ecmvei9k1i5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

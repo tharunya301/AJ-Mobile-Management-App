@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue"
+    android:orientation="vertical"
+    tools:context=".List">
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="73dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="219dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/ajlogo" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:layout_marginStart="25dp">
+        <ImageView
+            android:id="@+id/backBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/back"/>
+        <TextView
+            android:id="@+id/topicTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:text="Topic"
+            android:textColor="@color/orange"
+            android:textSize="32sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+    <androidx.appcompat.widget.SearchView
+        android:id="@+id/searchView"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        app:queryHint="Search here..."
+        app:iconifiedByDefault="false"
+        android:background="@color/white"
+        android:layout_marginStart="15dp"
+        android:queryHint="Search Here..."
+        android:layout_marginEnd="15dp"
+        android:layout_marginTop="10dp" />
+
+    <ListView
+        android:id="@+id/myListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:background="@color/white" />
+
+</LinearLayout>
